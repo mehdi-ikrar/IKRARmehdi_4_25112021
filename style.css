@@ -372,7 +372,7 @@ a:hover {
     .site-navigation {
         position: absolute;
         top: 50%;
-        right: 20px;
+        right: 150px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
@@ -711,6 +711,13 @@ p {
     display: flex;
     flex-direction: row;
 }
+@media (max-width: 991px){
+    .social{
+        justify-content: center;
+        justify-content: space-between;
+    }
+}
+
 
 h2 {
     font-size: 22px;
@@ -779,7 +786,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #af542a;
+    background-color: #a04c25;
 }
 
 .tc-white {
@@ -787,7 +794,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #af542a;
+    background: #99451f;
     color: #FFFFFF!important;
 }
 
@@ -1053,12 +1060,23 @@ h4 {
 }
 li{
 
+
 }
-ul{
+
+.footer__activity{
+    color: black;
+    font-weight: bold;
+}
+.section_citation{
+    font-size: 2em;
+    color: black;
+    text-align: center;
+}
+.footer__list{
     display: flex;
     justify-content: center;
     justify-content: space-around;
 }
-h3{
-    color: black;
+.font__size{
+    font-size: 1em;
 }
