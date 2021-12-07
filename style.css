@@ -282,6 +282,12 @@ a:hover {
     padding-right: 0;
     padding-left: 0;
 }
+.text-size{
+
+    font-size: 20px; 
+    
+
+}
 
 #bloc-1-hero h1 {
     font-size: 32px;
@@ -651,7 +657,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: hsla(200,0%,0%,.7)!important;
+    color: rgba(0, 0, 0, 0.7)!important;
 }
 
 .container {
@@ -702,6 +708,8 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex;
+    flex-direction: row;
 }
 
 h2 {
@@ -771,7 +779,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #f39c6c;
+    background-color: #af542a;
 }
 
 .tc-white {
@@ -818,11 +826,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.jpg");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
