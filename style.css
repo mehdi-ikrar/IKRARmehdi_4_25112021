@@ -7,6 +7,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -1069,8 +1070,10 @@ a{
     font-weight: bold;
 }
 .section_citation{
-    font-size: 2em;
+    font-size: 1.5em;
     color: black;
+    margin: 10px;
+    margin-top: 25px;
     text-align: center;
 }
 .footer__list__container{
@@ -1078,9 +1081,42 @@ a{
     justify-content: center;
     justify-content: space-around;
 }
+li{
+    list-style: none;
+}
+@media (max-width: 767px) {
+    .footer__list__container{
+        flex-direction: column;
+        margin-right: 20px;
+    }
+    .footer__title {
+        margin-left: 15px;
+    }
+}
 .footer__list{
     color: white;
 }
 .font__size{
     font-size: 1em;
+}
+.section__h2{
+    font-size: 1.9em;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-control{
+    padding: 10px;
+    border-radius: 10px;
+    width: 450px;
+}
+footer{
+    text-align: center;
+}
+#bloc-8{
+
+    margin: center;
 }
