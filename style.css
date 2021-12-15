@@ -1097,6 +1097,9 @@ li{
     .footer__title {
         margin-left: 15px;
     }
+    li{
+        font-size: 1.1em;
+    }
 }
 .footer__list{
     color: white;
@@ -1118,7 +1121,7 @@ li{
     border-radius: 10px;
     width: 450px;
 }
-footer{ ''
+footer{
     text-align: center;
 }
 #bloc-8{
