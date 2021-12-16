@@ -665,9 +665,6 @@ a {
     color: rgba(0, 0, 0, 0.7)!important;
 }
 
-.container {
-   
-}
 
 .hero-bloc-text {
     font-size: 38px;
@@ -1139,9 +1136,7 @@ footer{
     text-align: center;
 
 }
-#bloc-8{
-    
-}
+
 .navbar-brand img{
     width: 250px;
     height: 10%;
