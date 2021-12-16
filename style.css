@@ -8,8 +8,6 @@ body {
 }
 
 
-
-
 a,
 button {
     transition: all .3s ease-in-out;
@@ -311,10 +309,10 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-height: 200px;
+    max-height: 250px;
     margin: 0 5px 0 0;
     display: inline;
-    width: 200px;
+    width: 250px;
     height: 40px;
 }
 
@@ -867,13 +865,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -890,10 +888,6 @@ h4 {
     #hero-bloc {
         overflow-x: hidden;
         position: relative;
-    }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -1088,6 +1082,13 @@ li{
     width: 100%;
     height: 100%;
 }
+
+.form-control{
+    padding: 10px;
+    border-radius: 10px;
+    width: 30%
+    
+}
 @media (max-width: 767px) {
     .footer__list__container{
         flex-direction: column;
@@ -1103,6 +1104,9 @@ li{
     }
     .footer-partners{
         font-size: 1em;
+    }
+    .form-control{
+        width: 80%
     }
 }
 .footer__title {
@@ -1129,19 +1133,14 @@ li{
     
 }
 
-.form-control{
-    padding: 10px;
-    border-radius: 10px;
-    width: 450px;
-    
-}
+
 footer{
     text-align: center;
 
 }
 .page-container{
     text-align: center;
-    padding-left: -550px;
+
 }
 
 .image-resize-mode{
