@@ -690,8 +690,10 @@ p {
 
 .tight-width-whitespace {
     max-width: 600px;
-    margin: auto auto auto auto;
+    margin: auto;
+
 }
+
 
 .h1 {
     font-size: 20px;
@@ -1056,9 +1058,7 @@ h4 {
         text-align: center;
     }
 }
-.footer-partners{
-    text-align: center;
-}
+
 a{
 
     font-weight: bold;
@@ -1079,7 +1079,7 @@ a{
 .footer__list__container{
     display: flex;
     justify-content: center;
-    justify-content: space-around;
+    justify-content: space-around;   
 }
 li{
     list-style: none;
@@ -1124,24 +1124,32 @@ li{
 .form-group{
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin-bottom: 15px;
+    
 }
 
 .form-control{
     padding: 10px;
     border-radius: 10px;
     width: 450px;
+    
 }
 footer{
     text-align: center;
 
 }
-
-.navbar-brand img{
-    width: 250px;
-    height: 10%;
+.page-container{
+    text-align: center;
+    padding-left: -550px;
 }
+
 .image-resize-mode{
     width: 100px;
     height: 100px;
+}
+@media (min-width: 1000px) {
+    #navbar-brand-margin{
+        margin-left: 200px ;
+    }
 }
