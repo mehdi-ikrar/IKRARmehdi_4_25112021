@@ -522,13 +522,12 @@ button {
     box-shadow: none;
 }
 
-.scrollToTop {
+.scrollToTop{
     width: 40px;
     height: 40px;
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -667,7 +666,7 @@ a {
 }
 
 .container {
-    max-width: 1000px;
+   
 }
 
 .hero-bloc-text {
@@ -905,8 +904,7 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+
     }
 }
 
@@ -1020,7 +1018,7 @@ h4 {
         padding: 0 10px;
     }
     .btn-dwn {
-        display: none;
+        display: none ;
     }
     .voffset {
         margin-top: 5px;
@@ -1124,7 +1122,7 @@ li{
     font-size: 1em;
 }
 .section__h2{
-    font-size: 1.9em;
+    font-size: 1.8em;
 }
 .form-group{
     display: flex;
@@ -1139,12 +1137,13 @@ li{
 }
 footer{
     text-align: center;
+
 }
 #bloc-8{
-    margin: auto;
+    
 }
 .navbar-brand img{
-    width: 65%;
+    width: 250px;
     height: 10%;
 }
 .image-resize-mode{
