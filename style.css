@@ -1059,7 +1059,15 @@ a{
 
     font-weight: bold;
 }
-
+@media (min-width: 1000px) {
+    #navbar-brand-margin{
+        margin-left: 200px ;
+        
+    }
+    .shift-left{
+        margin-right: 50px;
+    }
+}
 
 .footer__activity{
     color: white;
@@ -1077,6 +1085,10 @@ a{
     justify-content: center;
     justify-content: space-around;   
 }
+.mg-lg{
+    font-size: 1.1em;
+}
+
 li{
     list-style: none;
 }
@@ -1134,10 +1146,8 @@ li{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 15px;
-    
+    margin-bottom: 15px; 
 }
-
 
 footer{
     text-align: center;
@@ -1145,19 +1155,12 @@ footer{
 }
 .page-container{
     text-align: center;
-
 }
 
 .image-resize-mode{
     width: 100px;
     height: 100px;
 }
-@media (min-width: 1000px) {
-    #navbar-brand-margin{
-        margin-left: 200px ;
-    }
-}
 
-.mg-lg{
-    font-size: 1.1em;
-}
+
+
