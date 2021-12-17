@@ -568,6 +568,13 @@ a[data-lightbox]:hover img {
     -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
 }
+@media (max-width: 768px) {
+    a[data-lightbox]:hover::before {
+        position: absolute;
+        left: 50%;
+    }
+
+}
 
 #lightbox-modal {
     display: flex;
